@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(220, 213, 199, 0.604);
+}
+table {
+    margin-top: 5%;
+    width: 70%;
+    text-align: center;
+}
+
+th{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    th, td {
+        border: 1px solid black;
+        padding: 2px;
+        text-align: left;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    
+    .reportbtn {
+    text-align: center;
+    justify-content: center; 
+    }
+
+    .btn{
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    }
+
+
+
