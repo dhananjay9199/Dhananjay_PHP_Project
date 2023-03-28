@@ -19,76 +19,16 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <style>
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: black;
-    }
-
-    li {
-        float: left;
-        /* border-right:1px solid #bbb; */
-    }
-
-    li:last-child {
-        border-right: none;
-    }
-
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: large;
-    }
-
-    li a:hover:not(.active) {
-        background-color: gray;
-    }
-
-    /* footer */
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 8%;
-        padding: 4px;
-        background-color: black;
-        color: white;
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .card-text {
-        padding: 10px;
-    }
-
-    .card {
-        margin-top: 5%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    /* footer */
-
-    /* navbar */
-
-    /* navbar */
-    </style>
 </head>
 
 <body>
     <!-- navbar begin -->
     <ul>
         <li><a href="index.php" style="width:700px">Inventory Management</I></a></li>
-        <li style="float:right"><a style="width:100px" href="generate1.php">I-Report</a></li>
-        <li style="float:right"><a style="width:100px" href="index.php">I-Table</a></li>
-        <li style="float:right"><a style="width:110px" href="generate.php">C-Report</a></li>
+        <li style="float:right"><a style="width:100px" href="generate.php">I-Report</a></li>
+        <li style="float:right"><a style="width:90px" href="index.php">I-Table</a></li>
+        <li style="float:right"><a style="width:110px" href="graph.php">C-Graph</a></li>
+        <li style="float:right"><a style="width:110px" href="generate1.php">C-Report</a></li>
         <li style="float:right"><a style="width:100px" href="index1.php">C-Table</a></li>
         <li style="float:right"><a style="width:100px" href="home.php">Home</a></li>
     </ul>

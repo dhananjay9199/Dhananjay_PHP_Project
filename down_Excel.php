@@ -11,7 +11,7 @@ include('conn.php');
 
  // Download the report as a CSV file
     header("Content-type: text/csv");
-    header("Content-Disposition: attachment; filename=report.csv");
+    header("Content-Disposition: attachment; filename=Inventory.csv");
     header("Pragma: no-cache");
     header("Expires: 0");
 
